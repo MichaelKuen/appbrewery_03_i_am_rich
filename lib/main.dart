@@ -12,8 +12,7 @@ void main() {
         backgroundColor: Colors.blueGrey,
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U'),
+            image: AssetImage('images/diamond.jpeg'),
           ),
         ),
       ),
